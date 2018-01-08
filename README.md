@@ -17,6 +17,9 @@ How to see a possible future
 * Edit the HTML
 * Paste the contents of "team-member-update.html" before the closing `</div>`
 
+### I don't have time for this ###
+* Okay, [clickity click here to just see a screenshot :D](https://github.com/darana/stickyalbums-about-page/raw/master/team-member-update.jpg)
+
 
 ### Who do I talk to? ###
 

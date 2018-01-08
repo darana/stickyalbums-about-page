@@ -1,0 +1,30 @@
+<style>
+	/*
+		• Updated justify-content on team-listing class to flex-start to balance uneven # of team members
+		• Reversed border left-right for parent-child of team-listing & team-member to match borders to changed in justify-content.
+		• Tested display across all breakpoints - max-width: 375px/767px, min-width: 768px, 1151px, 1300px;
+	 */
+	.team-listing {
+		justify-content: flex-start;
+		border-left: 1px solid #5482FC;
+		border-right: none !important;
+	}
+
+	.team-member {
+		border-right: 1px solid #5482FC;
+		border-left: none !important;
+	}
+
+	.new-team-member {
+		/*border-right: 1px solid #5482FC !important;*/
+		justify-self: flex-start !important;
+	}
+</style>
+<div class="team-member team-member-9 img-container new-team-member">
+    <div class="team-member-img">
+        <img data-src="https://jeremypollack.net/wp-content/uploads/2018/01/JPPhoto2011-square-514px.jpg" alt="Makes sure you hear our message. Did you hear it? Do you want to learn more?" class="lazyloaded" src="https://jeremypollack.net/wp-content/uploads/2018/01/JPPhoto2011-square-514px.jpg">
+    </div>
+    <h3 class="team-member-name">Jeremy</h3>
+    <h6 class="team-member-title">Marketing Automation Manager</h6>
+    <p>Makes sure you hear our message; doesn't know what he wants to be when he grows up; pro photog; loves experimenting, inventing, and exploring.</p>
+</div>
